@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436769509601",
+    "project_id": "xmapp-614c0",
+    "storage_bucket": "xmapp-614c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436769509601:android:cfc0d7ac0c7abb7d0727a0",
+        "android_client_info": {
+          "package_name": "com.example.xm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnJgmSsLZj_o57mBzCGYw3U8Ot1L2mKbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
