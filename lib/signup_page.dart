@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:xm/login_page.dart';
 import 'package:xm/main.dart';
+import 'package:xm/service/auth.dart';
 
 class SignupPage extends StatefulWidget {
   const SignupPage({super.key});
@@ -209,7 +210,9 @@ class _SignupPageState extends State<SignupPage> {
                     ],
                   ),
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      AuthMethods().signInWithGoogle(context);
+                    },
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
